@@ -1,6 +1,6 @@
-# ProxiMyti Monday.com Integration
+# ProxiMyti Monday Sync Service
 
-Automatic sync integration between Monday.com ProxiMyti Vendors board and Supabase database.
+Core vendor management service for the ProxiMyti delivery platform. Automatically syncs vendor data from Monday.com to Supabase database.
 
 ## 🎯 Overview
 
