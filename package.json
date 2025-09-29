@@ -1,0 +1,36 @@
+{
+  "name": "proximyti-monday-integration",
+  "version": "1.0.0",
+  "description": "Monday.com to Supabase sync integration for ProxiMyti vendors",
+  "main": "webhook-server.js",
+  "scripts": {
+    "start": "node webhook-server.js",
+    "sync": "node monday-to-supabase-sync.js",
+    "setup-webhook": "node setup-webhook.js",
+    "check-supabase": "node check-supabase.js",
+    "test-auth": "node test-monday-auth.js",
+    "dev": "nodemon webhook-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monday.com",
+    "supabase",
+    "webhook",
+    "sync",
+    "proximyti",
+    "vendors"
+  ],
+  "author": "ProxiMyti",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
