@@ -1,4 +1,12 @@
-# ProxiMyti Monday Sync Service
+# ⚠️ DEPRECATED - Use Monorepo Instead
+
+**This repository is deprecated.** See [DEPRECATED.md](./DEPRECATED.md) for details.
+
+**Active version**: [`proximyti-platform/services/monday-sync`](https://github.com/ProxiMyti/proximyti-platform/tree/main/services/monday-sync)
+
+---
+
+# ProxiMyti Monday Sync Service (OUT OF USE)
 
 Core vendor management service for the ProxiMyti delivery platform. Automatically syncs vendor data from Monday.com to Supabase database.
 
